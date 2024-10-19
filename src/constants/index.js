@@ -30,7 +30,8 @@ export const PROJECTS = [
     image: project1,
     description:
       "Designed and developed a responsive food ordering web application using React.js for the frontend.Built the backend with Node.js and Express, leveraging MongoDB for database management.Implemented secure user authentication and real-time shopping cart functionality.Integrated Stripe for secure online payment processing. Developed an admin dashboard for order tracking, status updates, and management.",
-    technologies: [ "React","Express", "Node.js", "MongoDB"],
+    technologies: [ "React","Express", "Node.js", "MongoDB"]
+    
   },
 
   {
@@ -38,7 +39,8 @@ export const PROJECTS = [
     image: project2,
     description: 
       "Developed an AI-driven web app that allows users to upload food images and receive detailed health assessments along with nutrient information. Utilized Google Gemini Pro for image analysis and integrated Streamlit for a user-friendly interface. Managed secure API calls using Python Dotenv, ensuring a smooth and accurate health evaluation process.",
-    "technologies": ["Google Gemini Pro", "Streamlit"]
+    "technologies": ["Google Gemini Pro", "Streamlit"],
+    githubLink: "https://github.com/roadrash99/CalorieAdvisor"
   },
 
   {
@@ -46,7 +48,8 @@ export const PROJECTS = [
     image: project3,
     description: 
       "Built an AI-powered web application that transcribes and summarizes YouTube videos, providing users with quick insights into video content. Integrated Google Generative AI for summarization, and used the YouTube Transcript API for accurate transcription. Managed secure API key handling through Python Dotenv, ensuring a seamless user experience.",
-    "technologies": ["Google Generative AI", "Streamlit", "YouTube Transcript API"]
+    "technologies": ["Google Generative AI", "Streamlit", "YouTube Transcript API"],
+    githubLink: "https://github.com/roadrash99/YTTranscriber"
   }
   
 
