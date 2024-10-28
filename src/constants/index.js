@@ -30,7 +30,8 @@ export const PROJECTS = [
     image: project1,
     description:
       "Designed and developed a responsive food ordering web application using React.js for the frontend.Built the backend with Node.js and Express, leveraging MongoDB for database management.Implemented secure user authentication and real-time shopping cart functionality.Integrated Stripe for secure online payment processing. Developed an admin dashboard for order tracking, status updates, and management.",
-    technologies: [ "React","Express", "Node.js", "MongoDB"]
+    technologies: [ "React","Express", "Node.js", "MongoDB"],
+    githubLink: "https://food-delivery-frontend-o9me.onrender.com"
     
   },
 
