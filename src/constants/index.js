@@ -5,20 +5,35 @@ import project3 from "../assets/projects/project-3.jpg";
 export const ABOUT_TEXT = `I am a dedicated full-stack developer with a strong foundation in building scalable and efficient web applications. With experience in front-end technologies like React and Angular, and back-end technologies including Node.js, Express, and databases like MongoDB, MySQL, and PostgreSQL, I aim to create innovative solutions that enhance user experience and drive business growth. Outside of work, I enjoy playing and watching cricket and football, traveling to new countries, working out, and reading self-help books to continuously improve myself.`;
 
 export const EXPERIENCES = [
+
+  {
+    year: "Jan 2025 - May 2025",
+    role: "Software Development Engineer Intern",
+    company: "Re.Use.Full",
+    description: `Spearheaded the transition from a GO and Vue.js site to a modern, interactive front end using React, integrated
+                  with a C# backend, and explored serverless architecture via AWS Lambda.Streamlined the deployment pipeline by implementing CI/CD practices, reducing deployment time and increasing
+                  overall development efficiency.`,
+    technologies: ["React","C#","AWS"],
+  },
   {
     year: "July 2022 - Apr 2023",
     role: "Software Development Engineer - 1 ",
     company: "Jio Platforms",
-    description: `Resolved post-development bugs in the Jio Auto Bazaar feature, saving time and resources.
-     Revamped the JioHumsafar feature, leading to an increase in user engagement. Led code review sessions, improving
-    code quality .`,
+    description: `Diagnosed and rectified post-development issues in the Jio AutoBazaar feature using Angular, Sass, and
+                  TypeScript, optimizing resource allocation and reducing downtime.
+                  Transformed the JioHumsafar feature, leading to a significant increase in user engagement, while mentoring
+                  team members through code reviews to improve code quality.
+                  Delivered Production Support by diagnosing issues, troubleshooting, and enhancing system processes for
+                  operational efficiency.`,
     technologies: ["HTML", "Sass", "Angular", "Typescript"],
   },
   {
     year: "Jan 2022 - June 2022",
     role: "Software Development Engineer Intern",
     company: "Infineon Technologies",
-    description: `Automated Errata data extraction using openpyxl module into an excel sheet using python for scripting.`,
+    description: `Automated the extraction of Errata data into Excel using Python's openpyxl, increasing workflow efficiency.
+              Utilized Git for version control, ensuring meticulous tracking and documentation of code changes throughout the
+              project lifecycle.Enhanced Excel sheet performance and scalability by optimizing backend data processing with Python libraries.`,
     technologies: ["XML","Python"],
   },
   
