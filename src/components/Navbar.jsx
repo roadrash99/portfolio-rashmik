@@ -42,15 +42,6 @@ const Navbar = () => {
           <a href="#contact" className="block py-2 md:py-0 md:mx-2">
             Contact
           </a>
-    
-          <a
-            href="/resume.pdf"  
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block py-2 md:py-0 md:mx-2"
-          >
-            Resume
-          </a>
         </div>
 
        
