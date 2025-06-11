@@ -2,7 +2,7 @@ import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import {motion} from "framer-motion";
 
-import { ABOUT_TEXT } from '../constants'; // or wherever your ABOUT_TEXT is defined
+import { ABOUT_TEXT } from '../constants'; 
 
 const About = () => {
   return (
