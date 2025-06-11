@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const ABOUT_TEXT = `I’m a passionate software engineer, recently graduated with a Master’s in Computer Science from the University of Central Missouri. I bring a strong foundation in building scalable, efficient web applications, with hands-on expertise in front-end technologies like React and Angular, and back-end frameworks including Node.js, Express, and databases such as PostgreSQL, MongoDB, and MySQL.
+const ABOUT_TEXT = `I’m a passionate software engineer, recently graduated with a Master’s in Computer Science from the University of Central Missouri. I bring a strong foundation in building scalable, efficient web applications, with hands-on expertise in front-end technologies like React and Angular, and back-end frameworks including Node.js, Express, and databases such as PostgreSQL, MongoDB, and MySQL.
 
 My journey began with a B.Tech in Electronics and Communication Engineering from BIT Mesra and has since included impactful roles at Jio Platforms, Infineon Technologies, and Re.Use.Full. Through these experiences, I’ve developed production-ready applications, worked with cloud platforms like AWS, Docker, and Kubernetes, and more recently, explored the exciting domain of AI agents—building intelligent solutions using LangGraph, LangChain, and ChatGPT.
 
@@ -12,6 +12,15 @@ Outside of work, I enjoy playing and watching cricket and football, traveling, s
 
 Technical Skills: Full-Stack Development | JavaScript | React | Angular | Node.js | Express | MongoDB | MySQL | PostgreSQL | Python | Java | Docker | Kubernetes | AWS | AI Agents | LangChain | LangGraph | Prompt Engineering | Cloud Computing`;
 
+export default function AboutSection() {
+  return (
+    <div className="space-y-4 text-base leading-relaxed">
+      {ABOUT_TEXT.split('\n\n').map((para, index) => (
+        <p key={index}>{para}</p>
+      ))}
+    </div>
+  );
+}
 
 export const EXPERIENCES = [
 
