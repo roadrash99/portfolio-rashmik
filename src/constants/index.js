@@ -2,7 +2,16 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const ABOUT_TEXT = `I am a dedicated full-stack developer with a strong foundation in building scalable and efficient web applications. With experience in front-end technologies like React and Angular, and back-end technologies including Node.js, Express, and databases like MongoDB, MySQL, and PostgreSQL, I aim to create innovative solutions that enhance user experience and drive business growth. Outside of work, I enjoy playing and watching cricket and football, traveling to new countries, working out, and reading self-help books to continuously improve myself.`;
+export const ABOUT_TEXT = `I’m a passionate software engineer, recently graduated with a Master’s in Computer Science from the University of Central Missouri. I bring a strong foundation in building scalable, efficient web applications, with hands-on expertise in front-end technologies like React and Angular, and back-end frameworks including Node.js, Express, and databases such as PostgreSQL, MongoDB, and MySQL.
+
+My journey began with a B.Tech in Electronics and Communication Engineering from BIT Mesra and has since included impactful roles at Jio Platforms, Infineon Technologies, and Re.Use.Full. Through these experiences, I’ve developed production-ready applications, worked with cloud platforms like AWS, Docker, and Kubernetes, and more recently, explored the exciting domain of AI agents—building intelligent solutions using LangGraph, LangChain, and ChatGPT.
+
+I’m now actively seeking full-time opportunities where I can contribute to meaningful projects and collaborate with innovative teams. I’m especially drawn to roles that combine software engineering, AI integration, and cloud technologies to solve real-world problems.
+
+Outside of work, I enjoy playing and watching cricket and football, traveling, staying active, and reading self-help books to continuously improve myself.
+
+Technical Skills: Full-Stack Development | JavaScript | React | Angular | Node.js | Express | MongoDB | MySQL | PostgreSQL | Python | Java | Docker | Kubernetes | AWS | AI Agents | LangChain | LangGraph | Prompt Engineering | Cloud Computing`;
+
 
 export const EXPERIENCES = [
 
@@ -10,31 +19,25 @@ export const EXPERIENCES = [
     year: "Jan 2025 - May 2025",
     role: "Software Development Engineer Intern",
     company: "Re.Use.Full",
-    description: `Spearheaded the transition from a GO and Vue.js site to a modern, interactive front end using React, integrated
-                  with a C# backend, and explored serverless architecture via AWS Lambda.Streamlined the deployment pipeline by implementing CI/CD practices, reducing deployment time and increasing
-                  overall development efficiency.`,
-    technologies: ["React","C#","AWS"],
+    technologies: ["React","C#","AWS","AI tools"],
   },
   {
     year: "July 2022 - Apr 2023",
     role: "Software Development Engineer - 1 ",
     company: "Jio Platforms",
-    description: `Diagnosed and rectified post-development issues in the Jio AutoBazaar feature using Angular, Sass, and
-                  TypeScript, optimizing resource allocation and reducing downtime.
-                  Transformed the JioHumsafar feature, leading to a significant increase in user engagement, while mentoring
-                  team members through code reviews to improve code quality.
-                  Delivered Production Support by diagnosing issues, troubleshooting, and enhancing system processes for
-                  operational efficiency.`,
     technologies: ["HTML", "Sass", "Angular", "Typescript"],
   },
   {
     year: "Jan 2022 - June 2022",
     role: "Software Development Engineer Intern",
     company: "Infineon Technologies",
-    description: `Automated the extraction of Errata data into Excel using Python's openpyxl, increasing workflow efficiency.
-              Utilized Git for version control, ensuring meticulous tracking and documentation of code changes throughout the
-              project lifecycle.Enhanced Excel sheet performance and scalability by optimizing backend data processing with Python libraries.`,
     technologies: ["XML","Python"],
+  },
+  {
+    year: "Aug 2020 - Dec 2021",
+    role: "Software Development Engineer",
+    company: "KFortune",
+    technologies: ["Java","Spring Boot", "Kafka", "Frontend Development"],
   },
   
 ];
