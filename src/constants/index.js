@@ -2,17 +2,22 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const ABOUT_TEXT = `I’m a passionate software engineer, recently graduated with a Master’s in Computer Science from the University of Central Missouri. I bring a strong foundation in building scalable, efficient web applications, with hands-on expertise in front-end technologies like React and Angular, and back-end frameworks including Node.js, Express, and databases such as PostgreSQL, MongoDB, and MySQL.
+export const ABOUT_TEXT = `I build intelligent, scalable web applications by merging robust full-stack engineering with cutting-edge AI.
 
-My journey began with a B.Tech in Electronics and Communication Engineering from BIT Mesra and has since included impactful roles at Jio Platforms, Infineon Technologies, and Re.Use.Full. Through these experiences, I’ve developed production-ready applications, worked with cloud platforms like AWS, Docker, and Kubernetes, and more recently, explored the exciting domain of AI agents—building intelligent solutions using LangGraph, LangChain, and ChatGPT.
+With a Master's in Computer Science and hands-on experience developing production code at Jio Platforms and Infineon, I thrive on creating solutions that matter.
 
-I’m now actively seeking full-time opportunities where I can contribute to meaningful projects and collaborate with innovative teams. I’m especially drawn to roles that combine software engineering, AI integration, and cloud technologies to solve real-world problems.
+What I build with:
+• AI: LangChain, LangGraph, LLM Integration
+• Front-End: React, Angular, JavaScript/TypeScript,Next.js
+• Back-End: Node.js, Express, Python, Java
+• Infrastructure: AWS, Docker, Kubernetes, PostgreSQL, MongoDB
 
-Outside of work, I enjoy playing and watching cricket and football, traveling, staying active, and reading self-help books to continuously improve myself.
+What I'm seeking:
+A full-time Software Engineer role where I can build, innovate, and solve complex problems using my skillset. I'm passionate about collaborative teams and meaningful projects.
 
-Technical Skills: Full-Stack Development | JavaScript | React | Angular | Node.js | Express | MongoDB | MySQL | PostgreSQL | Python | Java | Docker | Kubernetes | AWS | AI Agents | LangChain | LangGraph | Prompt Engineering | Cloud Computing`;
+Outside of coding, I'm a cricket and football enthusiast, an avid traveler, and a lifelong learner.
 
-
+Let's explore how I can contribute to your vision.`
 export const EXPERIENCES = [
 
   {
