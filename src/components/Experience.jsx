@@ -35,7 +35,6 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
             </motion.div>
           </div>
         ))}
