@@ -7,9 +7,9 @@ export const ABOUT_TEXT = `I build intelligent, scalable web applications by mer
 With a Master's in Computer Science and hands-on experience developing production code at Jio Platforms and Infineon, I thrive on creating solutions that matter.
 
 What I build with:
-• AI: LangChain, LangGraph, LLM Integration
 • Front-End: React, Angular, JavaScript/TypeScript,Next.js
-• Back-End: Node.js, Express, Python, Java
+• Back-End: Java/Spring Boot, REST/SOAP, SQL/NoSQL, Redis/Kafka ,Node.js, Express, Python.
+• AI: LangChain, LangGraph, LLM Integration
 • Infrastructure: AWS, Docker, Kubernetes, PostgreSQL, MongoDB
 
 What I'm seeking:
@@ -24,25 +24,21 @@ export const EXPERIENCES = [
     year: "Jan 2025 - May 2025",
     role: "Software Development Engineer Intern",
     company: "Re.Use.Full",
-    technologies: ["React","C#","AWS","AI tools"],
   },
   {
     year: "July 2022 - Apr 2023",
     role: "Software Development Engineer - 1 ",
     company: "Jio Platforms",
-    technologies: ["HTML", "Sass", "Angular", "Typescript"],
   },
   {
     year: "Jan 2022 - June 2022",
     role: "Software Development Engineer Intern",
     company: "Infineon Technologies",
-    technologies: ["XML","Python"],
   },
   {
     year: "Aug 2020 - Dec 2021",
     role: "Software Development Engineer",
     company: "KFortune",
-    technologies: ["Java","Spring Boot", "Kafka", "Frontend Development"],
   },
   
 ];
