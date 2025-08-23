@@ -8,7 +8,7 @@ With a Master's in Computer Science and hands-on experience developing productio
 
 What I build with:
 • Front-End: React, Angular, JavaScript/TypeScript,Next.js
-• Back-End: Java/Spring Boot, REST/SOAP, SQL/NoSQL, Redis/Kafka ,Node.js, Express, Python.
+• Back-End: Java/Spring Boot, REST/SOAP, SQL/NoSQL, Redis/Kafka ,Node.js, Express, Python
 • AI: LangChain, LangGraph, LLM Integration
 • Infrastructure: AWS, Docker, Kubernetes, PostgreSQL, MongoDB
 
