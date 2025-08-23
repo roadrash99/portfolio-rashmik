@@ -22,10 +22,6 @@ const Technologies = () => {
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiPython className="text-7xl text-yellow-400" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4 flex flex-col items-center">
-          <SiJavascript className="text-7xl text-purple-600" />
-          <span className="text-xs mt-2">LangChain</span>
-        </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiTypescript className="text-7xl text-blue-600" />
         </div>
